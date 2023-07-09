@@ -1,0 +1,40 @@
+.photo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .img{
+    width: 350px;
+  }
+  .img1{
+    width: 350px;
+    height: 200px;
+  }
+  .php{
+    background-color: black;
+  }
+  .round{
+    transition: all 0.5s ease-in-out;
+  }
+  .photo .round:hover .img {
+    transform: translate(-20px, -20px);
+    transition: 0.8s;
+  }
+  .photo .round:hover .img1 {
+    transform: translate(-20px, -20px);
+    transition: 0.8s;
+  }
+  .str{
+    position: absolute;
+    top: 110px;
+    padding-left: 150px;
+    text-align: center;
+    color: red;
+    opacity: 0;
+  }
+  .round:hover .str{
+    opacity: 1;
+    transform: translate(-20px, -20px);
+  
+    transition: 0.8s;
+  }

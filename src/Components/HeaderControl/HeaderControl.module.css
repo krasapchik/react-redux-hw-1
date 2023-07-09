@@ -1,0 +1,14 @@
+.app{
+    display: flex;
+    justify-content: space-around;
+    background-color: teal;
+}
+.str{
+    display: flex;
+    padding-right: 50px;
+   margin-top: 25px;
+  
+}
+.pp{
+   padding-right: 80px;
+}
